@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.dependency "Moya"
   s.framework = "TELVerifyFramework"
 #s.vendored_frameworks = 'TELVerify/TELVerifyFramework.framework'
-#s.public_header_files = 'TELVerifyFramework/*.h'
+  s.public_header_files = 'TELVerifyFramework/*.h'
 end
