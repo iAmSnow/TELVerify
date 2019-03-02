@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "iAmSnow" => "sarawoot_khu@true-e-logistics.com" }
 
-  s.source       = { :git => "http://EXAMPLE/TELVerify.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/iAmSnow/TELVerify.git", :tag => "#{s.version}" }
 
   s.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
   #s.exclude_files = "Classes/Exclude"
