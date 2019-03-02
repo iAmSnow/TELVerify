@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03EC7613225FE55F37440652 /* Pods_TELVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */; };
 		782A6195222B1AD400F36672 /* TELVerifyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782A6194222B1AD400F36672 /* TELVerifyFramework.framework */; };
+		782A6197222B1C0500F36672 /* TELVerifyFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 782A6194222B1AD400F36672 /* TELVerifyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		788DCA90222AFCAD0023E4F1 /* TELVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788DCA86222AFCAD0023E4F1 /* TELVerify.framework */; };
 		788DCA95222AFCAD0023E4F1 /* TELVerifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCA94222AFCAD0023E4F1 /* TELVerifyTests.swift */; };
 		788DCA97222AFCAD0023E4F1 /* TELVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 788DCA89222AFCAD0023E4F1 /* TELVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,19 @@
 			remoteInfo = TELVerify;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		782A6196222B1BFD00F36672 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				782A6197222B1C0500F36672 /* TELVerifyFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		059295CE5DADD31DED7A7C26 /* Pods-TELVerifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TELVerifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TELVerifyTests/Pods-TELVerifyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +162,7 @@
 				788DCA82222AFCAD0023E4F1 /* Sources */,
 				788DCA83222AFCAD0023E4F1 /* Frameworks */,
 				788DCA84222AFCAD0023E4F1 /* Resources */,
+				782A6196222B1BFD00F36672 /* CopyFiles */,
 			);
 			buildRules = (
 			);
