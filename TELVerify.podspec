@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "TELVerifyFramework.framework"
   s.dependency "Moya"
-  s.frameworks = '"TELVerifyFramework"'
+  s.frameworks = "TELVerifyFramework"
 end
