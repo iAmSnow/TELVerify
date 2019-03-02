@@ -6,11 +6,9 @@ PODS:
     - Alamofire (~> 4.1)
     - Result (~> 4.0)
   - Result (4.1.0)
-  - TELVerifyFramework (1.0.0):
-    - Moya
 
 DEPENDENCIES:
-  - TELVerifyFramework (from `https://github.com/iAmSnow/TELVerifyFramework.git`, branch `master`)
+  - Moya
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -18,22 +16,11 @@ SPEC REPOS:
     - Moya
     - Result
 
-EXTERNAL SOURCES:
-  TELVerifyFramework:
-    :branch: master
-    :git: https://github.com/iAmSnow/TELVerifyFramework.git
-
-CHECKOUT OPTIONS:
-  TELVerifyFramework:
-    :commit: 99e9d9822cf9292684b8814666c6b50cd7be6449
-    :git: https://github.com/iAmSnow/TELVerifyFramework.git
-
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  TELVerifyFramework: b539e9f5c60eeaa9527f26a73353aa6ac35da008
 
-PODFILE CHECKSUM: e29225e8ca351b6141fd9c79c461117483e75f7e
+PODFILE CHECKSUM: ad2e5478ac36df7b6cca35e6c2510ca8d7ebedf3
 
 COCOAPODS: 1.5.3
