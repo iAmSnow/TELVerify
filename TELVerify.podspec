@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   #s.exclude_files = "Classes/Exclude"
   #s.resources = "Resources/*.png"
   s.dependency "Moya"
-#s.framework = "TELVerifyFramework"
   s.vendored_frameworks = 'TELVerify/TELVerifyFramework.framework'
   s.public_header_files = 'TELVerifyFramework/*.h'
 end
