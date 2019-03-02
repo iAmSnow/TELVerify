@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/iAmSnow/TELVerify.git", :tag => "#{s.version}" }
 
-  s.source_files = "TELVerify/*.{h,swift}"
+  s.source_files = "TELVerify/*.{h,swift,framework}"
   #s.exclude_files = "Classes/Exclude"
   #s.resources = "Resources/*.png"
 
