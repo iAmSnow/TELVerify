@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-  # s.framework  = "SomeFramework"
+  s.framework  = "TELVerifyFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   s.dependency "Moya"
 end
