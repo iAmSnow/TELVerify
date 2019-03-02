@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03EC7613225FE55F37440652 /* Pods_TELVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */; };
-		782A6189222B0F4800F36672 /* TELVerifyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782A6188222B0F4800F36672 /* TELVerifyFramework.framework */; };
+		782A618B222B12E200F36672 /* TELVerifyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782A618A222B12E200F36672 /* TELVerifyFramework.framework */; };
 		788DCA90222AFCAD0023E4F1 /* TELVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788DCA86222AFCAD0023E4F1 /* TELVerify.framework */; };
 		788DCA95222AFCAD0023E4F1 /* TELVerifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCA94222AFCAD0023E4F1 /* TELVerifyTests.swift */; };
 		788DCA97222AFCAD0023E4F1 /* TELVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 788DCA89222AFCAD0023E4F1 /* TELVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,7 +31,7 @@
 		2A820518A72B348A4EECD5BF /* Pods_TELVerifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TELVerifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TELVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		548C88AC06F58B552EDC92DB /* Pods-TELVerifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TELVerifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TELVerifyTests/Pods-TELVerifyTests.release.xcconfig"; sourceTree = "<group>"; };
-		782A6188222B0F4800F36672 /* TELVerifyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TELVerifyFramework.framework; path = TELVerify/TELVerifyFramework.framework; sourceTree = "<group>"; };
+		782A618A222B12E200F36672 /* TELVerifyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TELVerifyFramework.framework; path = TELVerify/TELVerifyFramework.framework; sourceTree = "<group>"; };
 		788DCA86222AFCAD0023E4F1 /* TELVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TELVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		788DCA89222AFCAD0023E4F1 /* TELVerify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TELVerify.h; sourceTree = "<group>"; };
 		788DCA8A222AFCAD0023E4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782A6189222B0F4800F36672 /* TELVerifyFramework.framework in Frameworks */,
+				782A618B222B12E200F36672 /* TELVerifyFramework.framework in Frameworks */,
 				03EC7613225FE55F37440652 /* Pods_TELVerify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +68,7 @@
 		3D61E1237262D12A4999BF33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				782A6188222B0F4800F36672 /* TELVerifyFramework.framework */,
+				782A618A222B12E200F36672 /* TELVerifyFramework.framework */,
 				43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */,
 				2A820518A72B348A4EECD5BF /* Pods_TELVerifyTests.framework */,
 			);
@@ -469,7 +469,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)Framework/Output/TELVerifyFramework-Release-iphoneuniversal",
 					"$(PROJECT_DIR)/TELVerify",
 				);
 				INFOPLIST_FILE = TELVerify/Info.plist;
@@ -502,7 +501,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)Framework/Output/TELVerifyFramework-Release-iphoneuniversal",
 					"$(PROJECT_DIR)/TELVerify",
 				);
 				INFOPLIST_FILE = TELVerify/Info.plist;

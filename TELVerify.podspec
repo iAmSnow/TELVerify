@@ -12,11 +12,13 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/iAmSnow/TELVerify.git", :tag => "#{s.version}" }
 
-  s.source_files = "TELVerify/*.{h,swift,framework}"
+  s.source_files = "TELVerify/*.{h,swift}"
   #s.exclude_files = "Classes/Exclude"
   #s.resources = "Resources/*.png"
 
-  s.vendored_frameworks = "TELVerifyFramework.framework"
+  s.frameworks = 'TELVerifyFramework'
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '/Applications/Xcode.app/Contents/Developer/Library/Frameworks' }
+  s.vendored_frameworks = 'TELVerifyFramework.framework'
   s.dependency "Moya"
-  s.frameworks = "TELVerifyFramework"
+
 end
