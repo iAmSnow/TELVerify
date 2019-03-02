@@ -73,8 +73,7 @@
 		788DCA88222AFCAD0023E4F1 /* TELVerify */ = {
 			isa = PBXGroup;
 			children = (
-				788DCAC3222AFE600023E4F1 /* Resources */,
-				788DCAC2222AFE540023E4F1 /* Classes */,
+				788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */,
 				788DCA89222AFCAD0023E4F1 /* TELVerify.h */,
 				788DCA8A222AFCAD0023E4F1 /* Info.plist */,
 			);
@@ -88,21 +87,6 @@
 				788DCA96222AFCAD0023E4F1 /* Info.plist */,
 			);
 			path = TELVerifyTests;
-			sourceTree = "<group>";
-		};
-		788DCAC2222AFE540023E4F1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		788DCAC3222AFE600023E4F1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
