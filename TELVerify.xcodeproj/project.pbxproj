@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03EC7613225FE55F37440652 /* Pods_TELVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */; };
 		788DCA90222AFCAD0023E4F1 /* TELVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788DCA86222AFCAD0023E4F1 /* TELVerify.framework */; };
 		788DCA95222AFCAD0023E4F1 /* TELVerifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCA94222AFCAD0023E4F1 /* TELVerifyTests.swift */; };
 		788DCA97222AFCAD0023E4F1 /* TELVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 788DCA89222AFCAD0023E4F1 /* TELVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		788DCAC5222AFEAA0023E4F1 /* TELVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */; };
+		A8E1E6EF6890E7A86AC5753B /* Pods_TELVerifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A820518A72B348A4EECD5BF /* Pods_TELVerifyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		059295CE5DADD31DED7A7C26 /* Pods-TELVerifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TELVerifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TELVerifyTests/Pods-TELVerifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A820518A72B348A4EECD5BF /* Pods_TELVerifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TELVerifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TELVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548C88AC06F58B552EDC92DB /* Pods-TELVerifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TELVerifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TELVerifyTests/Pods-TELVerifyTests.release.xcconfig"; sourceTree = "<group>"; };
 		788DCA86222AFCAD0023E4F1 /* TELVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TELVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		788DCA89222AFCAD0023E4F1 /* TELVerify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TELVerify.h; sourceTree = "<group>"; };
 		788DCA8A222AFCAD0023E4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +37,8 @@
 		788DCA94222AFCAD0023E4F1 /* TELVerifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TELVerifyTests.swift; sourceTree = "<group>"; };
 		788DCA96222AFCAD0023E4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TELVerify.swift; sourceTree = "<group>"; };
+		7ADAD60422407506196D1838 /* Pods-TELVerify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TELVerify.release.xcconfig"; path = "Pods/Target Support Files/Pods-TELVerify/Pods-TELVerify.release.xcconfig"; sourceTree = "<group>"; };
+		8CA8FCC84B7A3E7ADB6B474F /* Pods-TELVerify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TELVerify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TELVerify/Pods-TELVerify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03EC7613225FE55F37440652 /* Pods_TELVerify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +55,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				788DCA90222AFCAD0023E4F1 /* TELVerify.framework in Frameworks */,
+				A8E1E6EF6890E7A86AC5753B /* Pods_TELVerifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D61E1237262D12A4999BF33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */,
+				2A820518A72B348A4EECD5BF /* Pods_TELVerifyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7811BB61EDB85D404B8A425D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CA8FCC84B7A3E7ADB6B474F /* Pods-TELVerify.debug.xcconfig */,
+				7ADAD60422407506196D1838 /* Pods-TELVerify.release.xcconfig */,
+				059295CE5DADD31DED7A7C26 /* Pods-TELVerifyTests.debug.xcconfig */,
+				548C88AC06F58B552EDC92DB /* Pods-TELVerifyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		788DCA7C222AFCAD0023E4F1 = {
 			isa = PBXGroup;
 			children = (
 				788DCA88222AFCAD0023E4F1 /* TELVerify */,
 				788DCA93222AFCAD0023E4F1 /* TELVerifyTests */,
 				788DCA87222AFCAD0023E4F1 /* Products */,
+				7811BB61EDB85D404B8A425D /* Pods */,
+				3D61E1237262D12A4999BF33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 788DCA9A222AFCAD0023E4F1 /* Build configuration list for PBXNativeTarget "TELVerify" */;
 			buildPhases = (
+				D25DF4129F8778B98DD148C4 /* [CP] Check Pods Manifest.lock */,
 				788DCA81222AFCAD0023E4F1 /* Headers */,
 				788DCA82222AFCAD0023E4F1 /* Sources */,
 				788DCA83222AFCAD0023E4F1 /* Frameworks */,
@@ -125,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 788DCA9D222AFCAD0023E4F1 /* Build configuration list for PBXNativeTarget "TELVerifyTests" */;
 			buildPhases = (
+				482330583D8F067D1B81D193 /* [CP] Check Pods Manifest.lock */,
 				788DCA8B222AFCAD0023E4F1 /* Sources */,
 				788DCA8C222AFCAD0023E4F1 /* Frameworks */,
 				788DCA8D222AFCAD0023E4F1 /* Resources */,
+				D008467505A3934262DEE40D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +227,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		482330583D8F067D1B81D193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TELVerifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D008467505A3934262DEE40D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TELVerifyTests/Pods-TELVerifyTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TELVerifyTests/Pods-TELVerifyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D25DF4129F8778B98DD148C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TELVerify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		788DCA82222AFCAD0023E4F1 /* Sources */ = {
@@ -345,6 +453,7 @@
 		};
 		788DCA9B222AFCAD0023E4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA8FCC84B7A3E7ADB6B474F /* Pods-TELVerify.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -372,6 +481,7 @@
 		};
 		788DCA9C222AFCAD0023E4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADAD60422407506196D1838 /* Pods-TELVerify.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -398,6 +508,7 @@
 		};
 		788DCA9E222AFCAD0023E4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059295CE5DADD31DED7A7C26 /* Pods-TELVerifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -417,6 +528,7 @@
 		};
 		788DCA9F222AFCAD0023E4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548C88AC06F58B552EDC92DB /* Pods-TELVerifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
