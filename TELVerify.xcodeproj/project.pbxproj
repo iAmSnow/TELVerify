@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		03EC7613225FE55F37440652 /* Pods_TELVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */; };
-		782A6187222B0EA200F36672 /* TELVerifyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782A6186222B0EA200F36672 /* TELVerifyFramework.framework */; };
+		782A6189222B0F4800F36672 /* TELVerifyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782A6188222B0F4800F36672 /* TELVerifyFramework.framework */; };
 		788DCA90222AFCAD0023E4F1 /* TELVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788DCA86222AFCAD0023E4F1 /* TELVerify.framework */; };
 		788DCA95222AFCAD0023E4F1 /* TELVerifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCA94222AFCAD0023E4F1 /* TELVerifyTests.swift */; };
 		788DCA97222AFCAD0023E4F1 /* TELVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 788DCA89222AFCAD0023E4F1 /* TELVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		788DCAC5222AFEAA0023E4F1 /* TELVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */; };
+		788DCAC5222AFEAA0023E4F1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCAC4222AFEAA0023E4F1 /* Home.swift */; };
 		A8E1E6EF6890E7A86AC5753B /* Pods_TELVerifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A820518A72B348A4EECD5BF /* Pods_TELVerifyTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,14 +31,14 @@
 		2A820518A72B348A4EECD5BF /* Pods_TELVerifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TELVerifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TELVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		548C88AC06F58B552EDC92DB /* Pods-TELVerifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TELVerifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TELVerifyTests/Pods-TELVerifyTests.release.xcconfig"; sourceTree = "<group>"; };
-		782A6186222B0EA200F36672 /* TELVerifyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TELVerifyFramework.framework; sourceTree = "<group>"; };
+		782A6188222B0F4800F36672 /* TELVerifyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TELVerifyFramework.framework; path = TELVerify/TELVerifyFramework.framework; sourceTree = "<group>"; };
 		788DCA86222AFCAD0023E4F1 /* TELVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TELVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		788DCA89222AFCAD0023E4F1 /* TELVerify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TELVerify.h; sourceTree = "<group>"; };
 		788DCA8A222AFCAD0023E4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		788DCA8F222AFCAD0023E4F1 /* TELVerifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TELVerifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		788DCA94222AFCAD0023E4F1 /* TELVerifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TELVerifyTests.swift; sourceTree = "<group>"; };
 		788DCA96222AFCAD0023E4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TELVerify.swift; sourceTree = "<group>"; };
+		788DCAC4222AFEAA0023E4F1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7ADAD60422407506196D1838 /* Pods-TELVerify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TELVerify.release.xcconfig"; path = "Pods/Target Support Files/Pods-TELVerify/Pods-TELVerify.release.xcconfig"; sourceTree = "<group>"; };
 		8CA8FCC84B7A3E7ADB6B474F /* Pods-TELVerify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TELVerify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TELVerify/Pods-TELVerify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782A6187222B0EA200F36672 /* TELVerifyFramework.framework in Frameworks */,
+				782A6189222B0F4800F36672 /* TELVerifyFramework.framework in Frameworks */,
 				03EC7613225FE55F37440652 /* Pods_TELVerify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +68,7 @@
 		3D61E1237262D12A4999BF33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				782A6188222B0F4800F36672 /* TELVerifyFramework.framework */,
 				43CD6612A69C3A8600FF76DB /* Pods_TELVerify.framework */,
 				2A820518A72B348A4EECD5BF /* Pods_TELVerifyTests.framework */,
 			);
@@ -108,8 +109,7 @@
 		788DCA88222AFCAD0023E4F1 /* TELVerify */ = {
 			isa = PBXGroup;
 			children = (
-				782A6186222B0EA200F36672 /* TELVerifyFramework.framework */,
-				788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */,
+				788DCAC4222AFEAA0023E4F1 /* Home.swift */,
 				788DCA89222AFCAD0023E4F1 /* TELVerify.h */,
 				788DCA8A222AFCAD0023E4F1 /* Info.plist */,
 			);
@@ -310,7 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788DCAC5222AFEAA0023E4F1 /* TELVerify.swift in Sources */,
+				788DCAC5222AFEAA0023E4F1 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
