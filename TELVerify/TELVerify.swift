@@ -12,7 +12,7 @@ public class TELVerify {
     public static func callAPI() {
         print("Starting ...")
         
-        Alamofire.request("http://www.google.co.th").responseJSON { (response) in
+        Alamofire.request("https://httpbin.org/get").responseJSON { (response) in
             print(response.value)
         }
     }
