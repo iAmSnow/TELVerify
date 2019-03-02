@@ -10,6 +10,7 @@
 		788DCA90222AFCAD0023E4F1 /* TELVerify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788DCA86222AFCAD0023E4F1 /* TELVerify.framework */; };
 		788DCA95222AFCAD0023E4F1 /* TELVerifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCA94222AFCAD0023E4F1 /* TELVerifyTests.swift */; };
 		788DCA97222AFCAD0023E4F1 /* TELVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 788DCA89222AFCAD0023E4F1 /* TELVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788DCAC5222AFEAA0023E4F1 /* TELVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		788DCA8F222AFCAD0023E4F1 /* TELVerifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TELVerifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		788DCA94222AFCAD0023E4F1 /* TELVerifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TELVerifyTests.swift; sourceTree = "<group>"; };
 		788DCA96222AFCAD0023E4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TELVerify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,8 @@
 		788DCA88222AFCAD0023E4F1 /* TELVerify */ = {
 			isa = PBXGroup;
 			children = (
+				788DCAC3222AFE600023E4F1 /* Resources */,
+				788DCAC2222AFE540023E4F1 /* Classes */,
 				788DCA89222AFCAD0023E4F1 /* TELVerify.h */,
 				788DCA8A222AFCAD0023E4F1 /* Info.plist */,
 			);
@@ -84,6 +88,21 @@
 				788DCA96222AFCAD0023E4F1 /* Info.plist */,
 			);
 			path = TELVerifyTests;
+			sourceTree = "<group>";
+		};
+		788DCAC2222AFE540023E4F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				788DCAC4222AFEAA0023E4F1 /* TELVerify.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		788DCAC3222AFE600023E4F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +167,7 @@
 				TargetAttributes = {
 					788DCA85222AFCAD0023E4F1 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					788DCA8E222AFCAD0023E4F1 = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788DCAC5222AFEAA0023E4F1 /* TELVerify.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +362,7 @@
 		788DCA9B222AFCAD0023E4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "True-e-Logistics.TELVerify";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +389,7 @@
 		788DCA9C222AFCAD0023E4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +415,7 @@
 		788DCA9E222AFCAD0023E4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EQ7YGQ38WY;
 				INFOPLIST_FILE = TELVerifyTests/Info.plist;
@@ -409,6 +434,7 @@
 		788DCA9F222AFCAD0023E4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EQ7YGQ38WY;
 				INFOPLIST_FILE = TELVerifyTests/Info.plist;

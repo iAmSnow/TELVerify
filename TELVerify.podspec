@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TELVerify"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of TELVerify."
 
   s.description  = "Description"
@@ -12,9 +12,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "http://EXAMPLE/TELVerify.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-  # s.resource  = "icon.png"
+  s.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
+  #s.exclude_files = "Classes/Exclude"
   #s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
