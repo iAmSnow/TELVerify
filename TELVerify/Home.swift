@@ -7,9 +7,9 @@
 //
 
 import Foundation
-import TELVerifyFramework
+
 public class Home {
     public static func callAPI() {
-        TELVerify.callAPI()
+        
     }
 }
