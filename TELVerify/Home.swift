@@ -18,7 +18,7 @@ public class Home {
     ///   - password: 123456
     public static func LoginTest(email: String, password: String) {
       
-        TELVerify.shared.service.login(email: email, password: password)
+        TELVerifyFW.shared.service.login(email: email, password: password)
         
     }
 }
