@@ -1,11 +1,11 @@
-framework module TELVerify {
-  umbrella header "TELVerify.h"
+framework module TELVerifyFramework {
+  umbrella header "TELVerifyFramework.h"
 
   export *
   module * { export * }
 }
 
-module TELVerify.Swift {
-    header "TELVerify-Swift.h"
+module TELVerifyFramework.Swift {
+    header "TELVerifyFramework-Swift.h"
     requires objc
 }

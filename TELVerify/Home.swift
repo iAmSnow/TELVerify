@@ -8,8 +8,12 @@
 
 import Foundation
 import TELVerifyFramework
+import Alamofire
 public class Home {
+    
     public static func callAPI() {
-        TELVerify.callAPI()
+        Alamofire.request("https://httpbin.org/get").responseJSON { (res) in
+            print(res.value)
+        }
     }
 }
